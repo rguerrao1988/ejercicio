@@ -1,6 +1,6 @@
 
 
-num_b=int(input("numero del 0 al 10 "))
+num_b=int(input("numero a consultar? "))
 # ind  0 1 2 3 4 5 6 7 8 9 10
 lista=[5,9,2,7,1,6,8,1,3,4,0]
 
@@ -9,8 +9,14 @@ def busqueda(lista,num_b):
         if lista[i]==num_b:
             return i    
 resul_busqueda= busqueda(lista,num_b)
-print(f"elemento se encuentra en el indice: {resul_busqueda}")    
- 
+if resul_busqueda == num_b:
+
+    print(f"elemento se encuentra en el indice: {resul_busqueda}")    
+else:
+    print("elemento digitado no encontrado") 
+
+
+
 
 def saludar(nombre):
     print("hola",nombre)
