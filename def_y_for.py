@@ -1,13 +1,13 @@
 
 
 num_b=int(input("numero del 0 al 10 "))
+# ind  0 1 2 3 4 5 6 7 8 9 10
 lista=[5,9,2,7,1,6,8,1,3,4,0]
 
 def busqueda(lista,num_b):
     for i in range(len(lista)):
         if lista[i]==num_b:
-            return i
-    return -1
+            return i    
 resul_busqueda= busqueda(lista,num_b)
 print(f"elemento se encuentra en el indice: {resul_busqueda}")    
  
