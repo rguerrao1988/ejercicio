@@ -15,3 +15,11 @@ def saludar(nombre):
     print("hola",nombre)
 
 saludar("ramon")
+
+
+def media(alun_1,alun_2,alun_3):
+    print("la media de calificacion es:")
+    return (alun_1 + alun_2 + alun_3)/3
+
+resultado=media(int(input("calificacion # 1: ")),int(input("calificacion # 2: ")),int(input("calificacion # 3: ")))
+print(resultado)
