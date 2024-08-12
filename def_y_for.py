@@ -1,6 +1,6 @@
-"""
 
-num_b=int(input("numero del 0 al 10"))
+
+num_b=int(input("numero del 0 al 10 "))
 lista=[5,9,2,7,1,6,8,1,3,4,0]
 
 def busqueda(lista,num_b):
@@ -8,13 +8,16 @@ def busqueda(lista,num_b):
         if lista[i]==num_b:
             return i
     return -1
-    
-    """
+resul_busqueda= busqueda(lista,num_b)
+print(f"elemento se encuentra en el indice: {resul_busqueda}")    
+ 
 
 def saludar(nombre):
     print("hola",nombre)
 
 saludar("ramon")
+#ejemplo  
+
 
 
 def media(alun_1,alun_2,alun_3):
@@ -23,3 +26,11 @@ def media(alun_1,alun_2,alun_3):
 
 resultado=media(int(input("calificacion # 1: ")),int(input("calificacion # 2: ")),int(input("calificacion # 3: ")))
 print(resultado)
+
+# ejemplo
+
+
+def resta(num_1=3,nume_2=2):
+    return num_1 - nume_2
+total=resta()
+print(total)
