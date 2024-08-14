@@ -78,3 +78,4 @@ resultado =  buscarsub(cadena,subcadena)
 print(resultado)    
 f
 s
+g
