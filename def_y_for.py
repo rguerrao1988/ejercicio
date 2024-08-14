@@ -77,3 +77,4 @@ def buscarsub(cadena,subcadena):
 resultado =  buscarsub(cadena,subcadena)  
 print(resultado)    
 f
+s
