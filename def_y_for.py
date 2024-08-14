@@ -79,3 +79,4 @@ print(resultado)
 f
 s
 g
+d
