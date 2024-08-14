@@ -76,3 +76,4 @@ def buscarsub(cadena,subcadena):
             return ocurrencias
 resultado =  buscarsub(cadena,subcadena)  
 print(resultado)    
+f
